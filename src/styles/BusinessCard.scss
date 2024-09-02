@@ -1,0 +1,54 @@
+.BusinessCard {
+    border: 1px solid #E0E0E0; 
+    width: 450px;
+    height: 250px;
+    padding: 20px;
+    
+    background-color: #FFFFFF; 
+    
+    font-family: Arial, sans-serif;
+    color: #333333;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+h3 {
+    font-size: 2em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #DCDCF1;
+    margin: 0 0 15px 0; 
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.Phone {
+    margin-top: 50px; 
+    color: #2980B9; 
+    text-align: center;
+}
+
+.Email {
+    color: #2980B9; /* Strong Blue */
+    text-align: center;
+}
+
+.Website{
+    text-align: left;
+}
+
+.Position {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #666666; /* Medium Gray */
+}
+
+.Location {
+    font-size: 1em;
+    margin: 10px 0;
+    color: #999999; /* Light Gray */
+}
