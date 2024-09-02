@@ -6,14 +6,11 @@ const Form = () => {
     <section className="Form">
       <h2>Enter your Details</h2>
       <form>
-        <FormElement ID="Name" Label="Name" />
-        <FormElement ID="Title" Label="Title" />
-        <FormElement ID="Company Name" Label="Company Name" />
-        <FormElement ID="City" Label="City" />
-        <FormElement ID="State" Label="State" />
-        <FormElement ID="Phone" Label="Phone" />
-        <FormElement ID="Email" Label="Email" />
-        <FormElement ID="Website" Label="Website" />
+        {["Name", "Title", "Company Name", "City", "State", "Phone", "Email", "Website"].map((field, key) =>
+        (
+          <FormElement ID={field} Label={field} key={key} />
+        ))}
+        
       </form>
     </section>
   );
