@@ -12,6 +12,7 @@ const Form = ({onChange, Values}) => {
         ))}
         
       </form>
+    
     </section>
   );
 };

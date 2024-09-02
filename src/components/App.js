@@ -26,11 +26,26 @@ const App = () => {
 
   };
 
+  const handleChange = (e) => {
+    const setField = {
+      setName,
+      setTitle,
+      setCompany,
+      setCity,
+      setState,
+      setPhone,
+      setEmail,
+      setWebsite
+    };
+    setField["set" + e.target.name](e.target.value);
+
+  };
+
   return (
   <div className= "App">
     <Header Dark={true}>E-card Maker</Header>
     <main>
-      <Form Values={Values} />
+      <Form Values={Values} onChange={handleChange} />
       <Preview />
     </main>
   </div>
