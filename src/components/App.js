@@ -46,7 +46,7 @@ const App = () => {
     <Header Dark={true}>E-card Maker</Header>
     <main>
       <Form Values={Values} onChange={handleChange} />
-      <Preview />
+      <Preview Values = {Values}/>
     </main>
   </div>
   );

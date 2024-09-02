@@ -1,7 +1,14 @@
 import React from 'react'
 
-const preview = () => {
-    return  <section className = "Preview">Preview</section>;
+const preview = ({Values}) => {
+    
+    return( 
+    <section className = "Preview">
+        <h2>Preview Pane</h2>
+      
+    </section>
+    );
+    
     
   
 };
