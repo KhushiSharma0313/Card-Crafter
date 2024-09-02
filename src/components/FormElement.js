@@ -10,4 +10,4 @@ const formElement = ({ID, Label, Value}) => {
   )
 }
 
-export default formElement
+export default formElement;
